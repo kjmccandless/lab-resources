@@ -1,7 +1,8 @@
 <?php include "/var/www/html/dbinfo.inc"; ?>
 <html>
 <body>
-<h1>Sample page</h1>
+<h1>Sample web app backed by RDS</h1>
+<p>Use the form to input data into your MySQL database running on Amazon RDS. That data will then be displayed in the table below.</p>
 <?php
 
   /* Connect to MySQL and select the database. */
